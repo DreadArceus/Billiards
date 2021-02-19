@@ -1,3 +1,4 @@
+#include "Ball.hpp"
 #include <vector>
 #include <cmath>
 
@@ -105,6 +106,8 @@ int main()
 				}
 			}
 		}
+		//balls
+		Ball b1(woodWidth + cushionWidth + 10, woodWidth + cushionWidth + 10, 0, 1);
 
 		rw.display();
 	}
